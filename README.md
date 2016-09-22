@@ -1,5 +1,7 @@
 # student-teaching-example-1
 
+#[Visit Website](https://klo1029.github.io/student-teaching-example-1/)
+
 [This website doesn't follow best practices cause it was just created for sample purpose.]
 
 [Everyone can use this website and modify it however they want]
