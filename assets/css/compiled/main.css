@@ -1,0 +1,142 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+a:link {
+  color: lightblue; }
+
+a:visited {
+  color: lightblue; }
+
+a:hover {
+  color: blue; }
+
+a:active {
+  color: red; }
+
+nav {
+  margin: 20px 0px; }
+
+nav h1 {
+  margin-left: 100px;
+  display: inline-block; }
+
+nav h1#logo:before {
+  content: "\f06d";
+  font-family: fontAwesome;
+  margin-right: 10px;
+  color: red; }
+
+nav ul {
+  float: right;
+  margin-right: 100px; }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px; }
+
+div.bg {
+  background: url("../../images/cover.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white; }
+
+div.bg h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 200px;
+  padding-bottom: 20px; }
+
+div.bg div {
+  margin: 0 auto;
+  width: 800px;
+  padding-bottom: 200px; }
+
+div.bg div button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  outline: none;
+  background: none;
+  border: 2px solid #333;
+  color: white; }
+
+div.bg div button:hover {
+  background: purple; }
+
+div#services {
+  margin-top: 50px;
+  text-align: center; }
+
+div.item {
+  width: 250px;
+  display: inline-block; }
+
+div.item h3 {
+  color: blue;
+  margin: 10px 0px; }
+
+.item-1:before {
+  content: "\f24e";
+  line-height: 2;
+  font-size: 50px;
+  font-family: fontAwesome;
+  background: red;
+  color: white;
+  padding: 30px 25px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%; }
+
+.item-2:before {
+  content: "\f0d7";
+  font-size: 50px;
+  line-height: 2;
+  font-family: fontAwesome;
+  background: purple;
+  color: white;
+  padding: 30px 40px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%; }
+
+.item-3:before {
+  content: "\f080";
+  font-size: 50px;
+  line-height: 2;
+  font-family: fontAwesome;
+  background: blue;
+  color: white;
+  padding: 30px 25px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%; }
+
+div#cart {
+  margin: 100px 0px;
+  text-align: center; }
+
+div#cart div#left-content {
+  margin-right: 300px;
+  display: inline-block; }
+
+div#cart div#left-content h1 {
+  margin-bottom: 20px; }
+
+div#cart div#left-content img {
+  width: 250px;
+  height: 250px; }
+
+div#cart div#right-content {
+  display: inline-block; }
+
+div#cart ul li {
+  list-style: none;
+  margin: 25px 0px; }
+
+footer {
+  background: #333;
+  padding: 10px 0px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold; }
